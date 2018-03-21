@@ -6,12 +6,8 @@ class Artist
     @genre = genre
   end
   
-  def songs
-    @songs
+  def add_song(song)
+    @songs << song
+    song.artist = self
   end
-  
-  # def add_song(song)
-  #   @songs << song
-  #   song.artist = self
-  # end
 end
