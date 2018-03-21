@@ -1,6 +1,6 @@
-# class Appointment
-#   # attr_accessor :date
+class Appointment
+  # attr_accessor :date
   
-#   def initialize
-# end
-# end
+  def initialize
+end
+end
